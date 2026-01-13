@@ -1,12 +1,10 @@
-
-from graph_maker import GraphMaker
-
+from cli import CLI
 
 def main() -> None:
-    gm: GraphMaker
+    cli: CLI
 
-    gm = GraphMaker(10)
-    gm.show()
+    cli = CLI()
+    cli.cmdloop()
 
 if __name__ == '__main__':
     main()
