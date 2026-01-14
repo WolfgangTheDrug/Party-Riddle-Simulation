@@ -7,5 +7,6 @@ requires-python = ">=3.11"
 dependencies = [
     "iplotx>=1.6.0",
     "networkx>=3.6.1",
+    "pyinstaller>=6.18.0",
     "pyvis>=0.3.2",
 ]
