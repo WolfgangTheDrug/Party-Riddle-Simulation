@@ -5,3 +5,9 @@ __pycache__/
 .python-version
 *.html
 lib/
+.DS_Store
+
+# PyInstaller
+/build/
+/dist/
+*.spec
